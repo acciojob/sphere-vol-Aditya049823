@@ -6,7 +6,7 @@ function volume_sphere() {
 	let radiusVal=parseFloat(radius.value);
 	let val=(4/3)*Math.PI*Math.pow(radiusVal,3);
 
-	volumeVal.value=val;
+	volumeVal.value=val.toFixed(4);
 	
 	
 } 
